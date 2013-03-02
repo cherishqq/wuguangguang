@@ -1,0 +1,77 @@
+<style>
+h4 {
+display: inline-block;
+margin: 0;
+padding: 0;
+}
+.ad1{
+font-weight:normal;
+color:#353535;
+display:block;
+border:1px solid gray;
+padding:10px;
+margin:10px;
+}
+</style>
+
+<h2>Extra User Fields Settings</h2>
+
+<div class="ad1">
+Hey there! Thanks for using the free version of <b>Extra Users Fields</b>. Although this version is fully functional, there are more features available. Interested? For a small donation, as a thank you for this useful plugin, <a href="http://www.feweb.net/wordpressplugin_extrauserfields.htm">check out the full-version</a>.
+@@FULLAD@@
+</div>
+
+<form method="post">
+
+<h4>User Fields:</h4>
+<i>Fields the user can modify values</i>
+<div>
+<textarea onfocus="document.getElementById('errordivuser').style.display='none'" style="width:800px;height:160px" name="userfields">@@VALUEUSER@@</textarea>
+<br><div id="errordivuser" style="display:inline-block;color:red">@@ERRORUSER@@</div><br>
+</div>
+<br>
+<div id="currentsettingsuser">
+
+<h4>Currently Saved User Settings:</h4>
+<pre style="font-size:12px;font-family:Courier New, monospace;">@@CURRENTSETTINGSUSER@@</pre>
+</div>
+
+<br>
+
+<p class="submit"><input type="submit" onclick="document.getElementById('currentsettingsuser').style.opacity='0.3';this.disabled=true;this.style.cursor='wait'" value="Save Settings" class="button-primary" id="submit" name="submit"></p>
+
+</form>
+
+<div id="extrauserfieldshelpdiv">
+
+<h4>Help:</h4>
+<p>
+In the input, provide a single line per input field. Each line will consist on at least 3 parts separated by a single space, the field <i>type</i>, <i>metaname</i>, and the <i>label</i>. A fourth field is required for field types SELECT and RADIO provides a <i>items-list</i>.
+<br>
+The order of the lines representing each input field is the order in which the fields will be displayed in the user profile page.
+</p>
+<p>
+Synopsis for a input field line is:<br>
+<pre>
+     <b><i>TYPE</i> metaname {Label[:<i>help message</i>]} [{<i>items-list</i>}]</b>
+</pre>
+<br>
+Field <i><b>TYPE</b></i>s are one of: TEXT, SELECT, CHECKBOX, RADIO or TEXTAREA.<br>
+<br>
+The <b>metaname</b>, used as the name to store data in the wp_usermeta table, should contain only lowercase letters. This value should be unique, duplicates will be ignored.<br>
+<br>
+Wrapped in brackets (<b>{}</b>), the <b>{Label}</b>, used to display the label of the input field to the visitor, may contain html. The <b>Label</b> can include a helper message for the field, followed by a colon (<b>:</b>).<br>
+<br>
+Input types RADIO, SELECT and, optionally, CHECKBOX will utilize a fourth field; list of items. Wrapped in brackets (<b>{}</b>), the list of items is separated by commas (<b>,</b>) and each item is two parts; <i>value</i> and <i>Label</i> separated by a colon (<b>:</b>). Note: CHECKBOX items will be stored in the user meta information space separated.
+<br>
+</p>
+<pre>
+TEXT phone {Phone:Please enter your office phone number}
+TEXT city {City}
+SELECT fruits {Fruits} {banana:Banana,apple:Apple,grape:Grape}
+CHECKBOX onoff {On/Off} {on}
+CHECKBOX selectany {Select Any} {apple:Apple,grape:Grape,orange:Orange,plum:Plum}
+RADIO selectone {Select One} {cats:Cats,dogs:Dogs,horses:Horses,cows:Cows}
+TEXTAREA description {Description:Please enter less than 200 characters.}
+</pre>
+</div>

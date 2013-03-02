@@ -1,0 +1,11 @@
+/*
+Theme Name:     Orchid Child
+Theme URI:      http: //example.com/
+Description:    Child theme for the Twenty Ten theme 
+Author:         Your name here
+Author URI:     http: //example.com/about/
+Template:       OrchidV1.8
+Version:        0.1.0
+*/
+
+@import url(../OrchidV1.8/style.css);

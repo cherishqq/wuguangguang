@@ -1,0 +1,3 @@
+<?php get_header(); ?><?php/*Template Name: Radio*/?><div id="container" style="margin-top:100px;text-align:center"><h1 style="font-size:80px;color:#666">TideRadio</h1>
+<iframe src="http://www.911pop.com/qmoonplayer/place/default_2.aspx?id=ef11fcd9-55aa-4ef8-8294-3dfbd2a7cda5" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="645" height="358"></iframe> 
+<div class="clear"></div><?php get_footer(); ?>

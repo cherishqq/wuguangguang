@@ -1,0 +1,413 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: iPhoto v2.7.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-03-30 20:49+0000\n"
+"Last-Translator: gutu\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: comments.php:1
+#@ iphoto
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Dieser Beitrag ist passwortgeschützt. Geben Sie ein Passwort ein um die Kommentare zu sehen."
+
+#: comments.php:1
+#@ iphoto
+msgid "<h2>Responses</h2>"
+msgstr "<h2>Kommentare</h2>"
+
+#: comments.php:1
+#@ iphoto
+msgid "Comment closed."
+msgstr "Kommentare geschlossen."
+
+#: comments.php:1
+#, php-format
+#@ default
+msgid "You need <a href=\\\"%s\\\">logged in</a> to comment."
+msgstr "Sie müssen <a href=\\\"%s\\\">angemeldet sein</a> um zu kommentieren."
+
+#: comments.php:1
+#, php-format
+#@ default
+msgid "<a href=\"%1$s\">%2$s</a> has logged in,"
+msgstr "<a href=\"%1$s\">%2$s</a> hat sich angemeldet."
+
+#: comments.php:1
+#@ default
+msgid "Log out of this account"
+msgstr "Abmelden"
+
+#: comments.php:1
+#@ iphoto
+msgid "Quit &raquo;"
+msgstr "Beenden &raquo;"
+
+#: comments.php:1
+#@ iphoto
+msgid "<small>Name:</small>"
+msgstr "<small>Name:</small>"
+
+#: comments.php:1
+#@ default
+msgid " "
+msgstr " "
+
+#: comments.php:1
+#@ iphoto
+msgid "<small>Email:</small>"
+msgstr "<small>E-Mail:</small>"
+
+#: comments.php:1
+#@ iphoto
+msgid "<small>Page:</small>"
+msgstr "<small>Seite:</small>"
+
+#: comments.php:1
+#, php-format
+#@ iphoto
+msgid "<strong>%s</strong>, welcome back."
+msgstr "<strong>%s</strong>, willkommen zurück."
+
+#: comments.php:1
+#@ iphoto
+msgid "Change name &raquo;"
+msgstr "Namen ändern &raquo;"
+
+#: comments.php:1
+#@ iphoto
+msgid "Close &raquo;"
+msgstr "Schließen &raquo;"
+
+#: comments.php:1
+#@ iphoto
+msgid "Submit Comment"
+msgstr "Kommentar absenden"
+
+#: functions.php:106
+#: includes/comments-ajax.php:79
+#@ default
+msgid "Your comment is awaiting moderation."
+msgstr "Ihr Kommentar wartet auf die Freischaltung."
+
+#: functions.php:107
+#, php-format
+#@ default
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: functions.php:108
+#@ default
+msgid "Reply"
+msgstr "Antwort"
+
+#: functions.php:109
+#: includes/comments-ajax.php:80
+#, php-format
+#@ default
+msgid "%s"
+msgstr "%s"
+
+#: functions.php:130
+#@ iphoto
+msgid "Theme Options"
+msgstr "Theme Eigenschaften"
+
+#: functions.php:135
+#@ iphoto
+msgid "iPhoto Theme Options<span>Version: "
+msgstr "iPhoto Theme Eigenschaften<span>Version: "
+
+#: functions.php:141
+#@ iphoto
+msgid "jQuery Effect"
+msgstr "Effekte"
+
+#: functions.php:142
+#@ iphoto
+msgid "Relative Plugins"
+msgstr "Plugins"
+
+#: functions.php:143
+#@ iphoto
+msgid "Website Information"
+msgstr "Infos"
+
+#: functions.php:144
+#@ iphoto
+msgid "Analytics Code"
+msgstr "Analytics"
+
+#: functions.php:145
+#@ iphoto
+msgid "Footer Copyright"
+msgstr "Footer"
+
+#: functions.php:146
+#@ iphoto
+msgid "iPhoto Theme Declare"
+msgstr "Über"
+
+#: functions.php:153
+#@ iphoto
+msgid "iPhoto use jquery 1.4.4 which contained in this theme, you can also use the Google one instead."
+msgstr "iPhoto verwendet jQuery 1.4.4, welches im Theme enthalten ist. Sie können jedoch auch eine von Google gehostete Version von jQuery nutzen."
+
+#: functions.php:154
+#@ iphoto
+msgid "Load the jQuery Library supported by Google"
+msgstr "jQuery, welches von Google zur Verfügung gestellt wird, laden"
+
+#: functions.php:157
+#@ iphoto
+msgid "Index page infinite loading posts."
+msgstr "Beiträge auf der Hauptseite automatisch nachladen"
+
+#: functions.php:158
+#@ iphoto
+msgid "Deactivate the Infinite loading posts"
+msgstr "Das automatiche Nachladen von Beiträgen deaktivieren"
+
+#: functions.php:161
+#@ iphoto
+msgid "<strong>Animation of relayout elements</strong>"
+msgstr "<strong>Animation beim Laden der Seite</strong>"
+
+#: functions.php:162
+#@ iphoto
+msgid "Deactivate animation effect on index page"
+msgstr "Animations-Effekte auf der Startseite deaktivieren"
+
+#: functions.php:167
+#@ iphoto
+msgid "WP-PostViews, Enables you to display how many times a post/page had been viewed."
+msgstr "WP-PostViews ermöglicht das Einblenden von der Zugriffszahl des jeweiligen Artikels"
+
+#: functions.php:168
+#@ iphoto
+msgid "Activate WP-PostViews"
+msgstr "WP-PostViews aktivieren"
+
+#: functions.php:173
+#@ iphoto
+msgid "<em>Keywords, separate by English commas. like MuFeng, Computer, Software</em>"
+msgstr "<em>Stichwörter mit Beistrichen trennen (z.B.: MuFeng, Computer, Software)</em>"
+
+#: functions.php:177
+#@ iphoto
+msgid "<em>Description, explain what's this site about. like MuFeng, Breathing the wind</em>"
+msgstr "<em>Kurzbeschreibung der Webseite</em>"
+
+#: functions.php:183
+#@ iphoto
+msgid "You can get your Google Analytics code <a target=\"_blank\" href=\"https://www.google.com/analytics/settings/check_status_profile_handler\">here</a>."
+msgstr "Sie können <a target=\"_blank\" href=\"https://www.google.com/analytics/settings/check_status_profile_handler\">hier</a> Ihren Google Analytics Code anfordern."
+
+#: functions.php:190
+#@ iphoto
+msgid "<b>Preview</b>"
+msgstr "<b>Vorschau</b>"
+
+#: functions.php:195
+#@ iphoto
+msgid "iPhoto is created, developed and maintained by <a href=\"http://mufeng.me/\">MuFeng</a>.  If you like iPhoto,  please donate.  It will help in developing new features and versions."
+msgstr "iPhoto wird von <a href=\"http://mufeng.me/\">MuFeng</a> entwickelt und betreut. Wenn Ihnen iPhoto gefällt, können Sie für das Projekt spenden. Eine Spende hilft bei der Weiterentwicklung des Templates."
+
+#: functions.php:195
+#@ iphoto
+msgid "Alipay"
+msgstr "Alipay"
+
+#: functions.php:196
+#@ iphoto
+msgid "Introduction"
+msgstr "Einführung"
+
+#: functions.php:197
+#@ iphoto
+msgid "iPhoto is evolved from one theme of Tumblr and turned it into a photo theme which can be used at wordpress."
+msgstr "iPhoto entsatnd aus einem Design für Tumblr und wurde in ein Photo-Theme verwandelt, welches für Wordpress genutzt werden kann."
+
+#: functions.php:198
+#@ iphoto
+msgid "Published Address"
+msgstr "Offizielle Webseite"
+
+#: functions.php:200
+#@ iphoto
+msgid "Preview Address"
+msgstr "Demo"
+
+#: functions.php:202
+#@ iphoto
+msgid "Report Bugs"
+msgstr "Fehler melden"
+
+#: functions.php:203
+#@ iphoto
+msgid "Weibo <a href=\"http://weibo.com/meapo\" target=\"_blank\">@mufeng.me</a> or leave a message at <a href=\"http://mufeng.me\" target=\"_blank\">http://mufeng.me</a>。"
+msgstr "Sie können Fehler über Weibo <a href=\"http://weibo.com/meapo\" target=\"_blank\">@mufeng.me</a> oder über eine Nachricht bei <a href=\"http://mufeng.me\" target=\"_blank\">http://mufeng.me</a> melden."
+
+#: functions.php:210
+#@ iphoto
+msgid "Save Options"
+msgstr "Eigenschaften sichern"
+
+#: header.php:1
+#: page-post.php:1
+#@ iphoto
+msgid "Post"
+msgstr "Beitrag"
+
+#: header.php:1
+#: page-post.php:1
+#@ iphoto
+msgid "Logout"
+msgstr "Abmelden"
+
+#: includes/comments-ajax.php:39
+#@ default
+msgid "Sorry, you must be logged in to post a comment."
+msgstr "Sie müssen angemeldet sein um zu kommentieren"
+
+#: includes/comments-ajax.php:44
+#@ default
+msgid "Error: please fill the required fields (name, email)."
+msgstr "Fehler: Bitte füllen Sie alle erforderlichen Felder aus (Name und E-Mail)"
+
+#: includes/comments-ajax.php:46
+#@ default
+msgid "Error: please enter a valid email address."
+msgstr "Fehler: Geben Sie bitte eine gültige E-Mail-Adresse an"
+
+#: includes/comments-ajax.php:49
+#@ default
+msgid "Error: please type a comment."
+msgstr "Fehler: Geben Sie einen Kommentar ein"
+
+#: page-post.php:1
+#@ iphoto
+msgid "Log in"
+msgstr "Anmelden"
+
+#: page-post.php:1
+#@ iphoto
+msgid "Username"
+msgstr "Benutzernamen"
+
+#: page-post.php:1
+#@ iphoto
+msgid "Password"
+msgstr "Passwort"
+
+#: page-post.php:1
+#@ iphoto
+msgid "Forgot password ?"
+msgstr "Passwort vergessen?"
+
+#: page-post.php:1
+#@ iphoto
+msgid "Keep me signed in"
+msgstr "Angemeldet bleiben"
+
+#: page-post.php:1
+#@ iphoto
+msgid "welcome back."
+msgstr "willkommen zurück."
+
+#: page-post.php:1
+#@ iphoto
+msgid "You can post you'r images here."
+msgstr "Sie können Ihr Bild hier posten."
+
+#: page-post.php:1
+#@ iphoto
+msgid "Title"
+msgstr "Titel"
+
+#: page-post.php:1
+#@ iphoto
+msgid "Add photos"
+msgstr "Fotos"
+
+#: page-post.php:1
+#@ iphoto
+msgid "jpg,gif,png or bmp"
+msgstr "jpg, gif, png oder bmp"
+
+#: page-post.php:1
+#@ iphoto
+msgid "Local photos"
+msgstr "Lokale Fotos"
+
+#: page-post.php:1
+#@ iphoto
+msgid "Network photos"
+msgstr "Externe Fotos"
+
+#: page-post.php:1
+#@ iphoto
+msgid "Add local photos"
+msgstr "Lokales Foto hinzufügen"
+
+#: page-post.php:1
+#@ iphoto
+msgid "Input address"
+msgstr "Bild-URL"
+
+#: page-post.php:1
+#@ iphoto
+msgid "Add"
+msgstr "laden"
+
+#: page-post.php:1
+#@ iphoto
+msgid "Please input the address"
+msgstr "Bitte die Adresse eingeben"
+
+#: page-post.php:1
+#@ iphoto
+msgid "Cate"
+msgstr ""
+
+#: page-post.php:1
+#@ iphoto
+msgid "Tags"
+msgstr "Stichwörter"
+
+#: page-post.php:1
+#@ iphoto
+msgid "Submit"
+msgstr "Einsenden"
+
+#: page.php:1
+#: single.php:1
+#@ iphoto
+msgid "next page"
+msgstr "Nächste Seite"
+
+#: page.php:1
+#: single.php:1
+#@ iphoto
+msgid "<h2>Popular</h2>"
+msgstr "<h2>Beliebt</h2>"
+
+#: page.php:1
+#: single.php:1
+#@ iphoto
+msgid "<h2>Related</h2>"
+msgstr "<h2>Ähnlich</h2>"
+
