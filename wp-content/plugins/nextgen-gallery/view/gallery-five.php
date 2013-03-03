@@ -17,7 +17,8 @@ Follow variables are useable :
 <ul class="list_img_five">
   <?php foreach ( $images as $image ) : ?>
 	 <li>
-	 <a href="<?php echo $image->imageURL?>" target="_blank" style="opacity: 0.65; top: 120px;"> <?php echo $image->description ?> </a>
+	 <a href="<?php echo $image->ngg_custom_fields[directHref]; ?>" target="_blank" style="opacity: 0.65; top: 120px;"> 
+	  <?php echo $image->description ; ?> </a>
 	 <img src="<?php echo $image->imageURL?>">	 
 	 </li>
   <?php endforeach; ?>

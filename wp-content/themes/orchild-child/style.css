@@ -9,3 +9,17 @@ Version:        0.1.0
 */
 
 @import url(../OrchidV1.8/style.css);
+
+.list_shop li {
+text-align: center;
+line-height: 1.8em;
+}
+
+.list_shop li img {
+display: block;
+margin-bottom: 5px;
+}
+
+img {
+border-style: none;
+}
